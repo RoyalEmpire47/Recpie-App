@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="7dp"
+        android:elevation="7dp">
+
+
+        <ImageView
+            android:id="@+id/imageViewCateogoryList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.13"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textViewCatorgorylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.35"
+            android:background="@color/colorFont1"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="2dp"
+            android:text="Country"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

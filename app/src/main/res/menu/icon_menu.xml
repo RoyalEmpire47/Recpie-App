@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_home"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_home"
+            android:icon="@drawable/home"
+            android:title="Home">
+        </item>
+    </group>
+
+    <group android:id="@+id/group_navi"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search Recipes">
+        </item>
+        <item android:id="@+id/menu_Catgory"
+            android:icon="@drawable/catgory"
+            android:title="Catgory">
+        </item>
+        <item android:id="@+id/menu_Add"
+            android:icon="@drawable/addrecipe"
+            android:title="Add Recipe">
+        </item>
+    </group>
+
+    <group android:id="@+id/group_login"
+        android:checkableBehavior="single" >
+        <item android:id="@+id/menu_profile"
+            android:icon="@drawable/ic_person_black_profilenav"
+            android:title="Profile">
+        </item>
+
+        <item android:id="@+id/menu_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout">
+        </item>
+        <item android:id="@+id/menu_reported_recipes"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="Reported Recipes"/>
+    </group>
+
+</menu>
